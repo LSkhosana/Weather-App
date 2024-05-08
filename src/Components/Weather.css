@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(purple,rgb(0, 191, 255));
+    background: linear-gradient(to left, purple,rgb(0, 191, 255));
      background-repeat: no-repeat;
      background-attachment: fixed;
 }
