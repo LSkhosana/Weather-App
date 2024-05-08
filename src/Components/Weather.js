@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Weather.css';
-import { FaSearch,FaWind } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import {MdLocationOn} from 'react-icons/md';
-import {WiHumidity} from 'react-icons/wi';
+// import {WiHumidity} from 'react-icons/wi';
 
 const Weather = () => {
 
