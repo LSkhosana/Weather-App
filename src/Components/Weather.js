@@ -66,20 +66,7 @@ const Weather = () => {
                 </div>
 
                 <div className='weather-stats'>
-                    {/* <div className='wind'>
-                        <div className='wind-icon'>
-                            <FaWind></FaWind>
-                        </div>
-                        <h3 className='wind-speed'>{weather.wind.speed}<span>Km/h</span></h3>
-                        <h3 className='wind-heading'>Wind Speed</h3>
-                    </div>     */}
-                    {/* <div className='humidity'>
-                        <div className='humidity-icon'>
-                            <WiHumidity></WiHumidity>
-                        </div>
-                        <h3 className='humidity-percent'>{weather.main.humidity}<span>%</span></h3>
-                        <h3 className='humidity-heading'>Humidity</h3>
-                    </div> */}
+                    
                 </div>
             </div>
         }
