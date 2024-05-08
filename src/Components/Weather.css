@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to left, purple,rgb(0, 191, 255));
+    background: linear-gradient(to right, purple,rgb(0, 191, 255));
      background-repeat: no-repeat;
      background-attachment: fixed;
 }
@@ -85,10 +85,16 @@ body {
     margin-bottom: 5px;
 }
 .weather-temp {
-    color: #40A2E3;
+    /* color: #40A2E3; */
     text-align: center;
     font-size: 50px;
     margin: 25px auto 15px auto;
+    background: linear-gradient( #40A2E3 50%, #c504e7 50%);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text; 
+
+    color: transparent; 
 }
 .weather-city {
     display: flex;
